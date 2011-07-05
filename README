@@ -1,0 +1,5 @@
+The Economic Data Finder is a Google Chrome extension that helps you quickly access economic data that gives you additional information on pages/articles you read online. Per-country graphs of indicators such as GDP, inflation, unemployment and many others are now just a few clicks away! Those indicators are suggested based on the content of the pages you read.
+
+The current version uses a subset of the World Development Indicators from the World Bank and graphs hosted on the World Bank website.
+
+The languages currently supported are English and French.
