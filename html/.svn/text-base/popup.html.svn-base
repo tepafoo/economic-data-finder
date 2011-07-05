@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <title></title>
+    <head>
+        <link rel="stylesheet" href="../css/popup.css" type="text/css"/>
+        <script type="application/javascript" src="../js/shared/constants.js">
+        </script>
+        <script type="application/javascript" src="../js/shared/util.js">
+        </script>
+        <script type="application/javascript" src="../js/shared/logger.js">
+        </script>
+        <script type="application/javascript" src="../js/popups/popup.js">
+        </script>
+    </head>
+    <body onload="onLoad()">
+        <div id="content">
+            <h2 id="linksH2Title"></h2>
+            <h3 id="linksH3Title"></h3>
+            <div class="optionsLinkContainer">
+                <a id="optionsLink" href="javascript:void 0;"></a>
+            </div>
+            <div id="links">
+            </div>
+        </div>
+    </body>
+</html>

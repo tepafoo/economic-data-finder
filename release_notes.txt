@@ -1,0 +1,29 @@
+[1.1]
+- Added option to click on the keywords found on the page to see the associated list of indicators
+- Indicators now shown in popup within the same page instead of new tab
+- Option to add custom indicators
+- Major code refactoring
+
+[1.0.4]
+- Implemented pre-selection of countries and aggregates
+- Added code to notify user when no indicator found on a page
+- Script and style tags now excluded from scanned content
+- Improved scanning speed
+- Added feature to scan for keywords in manually selected language when language detected on a page is not supported
+- Bug fixes
+
+[1.0.3]
+- Bug fixes
+
+[1.0.2]
+- Bug fixes
+- Full French support
+
+[1.0.1]
+- Bug fixes
+
+[1.0.0]
+- Bug fixes
+
+[0.9.9]
+- Initial release

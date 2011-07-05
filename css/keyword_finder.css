@@ -1,0 +1,59 @@
+.economicdata-highlight {
+    background: yellow;
+    color: black;
+}
+
+.economicdata-clickable {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.economicdata-clickable:hover {
+	background: #507DCF;
+	color: white;
+}
+
+@keyframes 'economicdata-fadeOut' {
+ from {
+   opacity: 1.0;
+ }
+ to {
+   opacity: 0.0;
+ }
+}
+
+@-webkit-keyframes 'economicdata-fadeOut' {
+ from {
+   opacity: 1.0;
+ }
+ to {
+   opacity: 0.0;
+ }
+}
+
+.economicdata-notification {
+  font-family: Arial;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #4369AE;
+  background-color: #507DCF;
+  color: white;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  padding: 5px;
+  z-index: 99;
+}
+
+.economicdata-notification-animationDefinition {
+  -webkit-animation-name: economicdata-fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-duration: 16s;
+  animation-duration: 16s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+}

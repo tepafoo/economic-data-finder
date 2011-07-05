@@ -1,0 +1,1128 @@
+{
+ "options_page_scan_all_websites": {
+  "message": "Scan automatique de toutes les pages"
+ }, 
+ "options_page_scan_title": {
+  "message": "Paramètres de scan"
+ }, 
+ "options_page_title": {
+  "message": "Economic Data Finder - Paramètres"
+ }, 
+ "popup_languages_list_title": {
+  "message": "Langue à utiliser pour trouver des indicateurs"
+ }, 
+ "options_page_highlight_keywords_title": {
+  "message": "Mots clés"
+ }, 
+ "keywords_found_notification_plural": {
+  "message": "$number$ indicateurs économiques trouvés", 
+  "placeholders": {
+   "number": {
+    "content": "$1"
+   }
+  }
+ }, 
+ "popup_options_page_link": {
+  "message": "Options"
+ }, 
+ "language_en": {
+  "message": "Anglais"
+ }, 
+ "page_action_no_indicators_found_title": {
+  "message": "Economic Data Finder - Pas de données économiques trouvées sur cette page"
+ }, 
+ "no_keywords_found_notification": {
+  "message": "Aucun indicateur trouvé dans cette page"
+ }, 
+ "options_page_add_new_country": {
+  "message": "Ajouter un pays"
+ }, 
+ "options_page_add_new_aggregate": {
+  "message": "Ajouter un agrégat"
+ }, 
+ "options_page_delete": {
+  "message": "Delete"
+ },
+ "options_page_saved_successfully": {
+  "message": "Enregistrement réussi"
+ }, 
+ "page_action_manual_scan_title": {
+  "message": "Economic Data Finder - Cliquez pour scanner la page"
+ }, 
+ "aggregates": {
+  "message": "[
+   {
+    \"iso2Code\": \"ZQ\", 
+    \"name\": \"Afrique du Nord et Moyen-Orient (tous niveaux de revenu)\"
+   }, 
+   {
+    \"iso2Code\": \"ZF\", 
+    \"name\": \"Afrique subsaharienne\"
+   }, 
+   {
+    \"iso2Code\": \"ZG\", 
+    \"name\": \"Afrique subsaharienne (tous niveaux de revenu)\"
+   }, 
+   {
+    \"iso2Code\": \"XU\", 
+    \"name\": \"Amérique du Nord\"
+   }, 
+   {
+    \"iso2Code\": \"XJ\", 
+    \"name\": \"Amérique latine et Caraïbes\"
+   }, 
+   {
+    \"iso2Code\": \"ZJ\", 
+    \"name\": \"Amérique latine et Caraïbes (tous niveaux de revenu)\"
+   }, 
+   {
+    \"iso2Code\": \"4E\", 
+    \"name\": \"Asie de l’Est et Pacifique\"
+   }, 
+   {
+    \"iso2Code\": \"Z4\", 
+    \"name\": \"Asie de l’Est et Pacifique (tous niveaux de revenu)\"
+   }, 
+   {
+    \"iso2Code\": \"8S\", 
+    \"name\": \"Asie du Sud\"
+   }, 
+   {
+    \"iso2Code\": \"7E\", 
+    \"name\": \"Europe et Asie centrale\"
+   }, 
+   {
+    \"iso2Code\": \"Z7\", 
+    \"name\": \"Europe et Asie centrale (tous niveaux de revenu)\"
+   }, 
+   {
+    \"iso2Code\": \"XM\", 
+    \"name\": \"Faible revenu\"
+   }, 
+   {
+    \"iso2Code\": \"1A\", 
+    \"name\": \"Le monde arabe\"
+   }, 
+   {
+    \"iso2Code\": \"1W\", 
+    \"name\": \"Monde\"
+   }, 
+   {
+    \"iso2Code\": \"XQ\", 
+    \"name\": \"Moyen-Orient et Afrique du Nord\"
+   }, 
+   {
+    \"iso2Code\": \"XL\", 
+    \"name\": \"Pays les moins avancés : classement de l’ONU\"
+   }, 
+   {
+    \"iso2Code\": \"OE\", 
+    \"name\": \"Pays membres de l'OCDE\"
+   }, 
+   {
+    \"iso2Code\": \"XE\", 
+    \"name\": \"Pays pauvres très endettés (PPTE)\"
+   }, 
+   {
+    \"iso2Code\": \"XO\", 
+    \"name\": \"Revenu faible et intermédiaire\"
+   }, 
+   {
+    \"iso2Code\": \"XP\", 
+    \"name\": \"Revenu intermédiaire\"
+   }, 
+   {
+    \"iso2Code\": \"XN\", 
+    \"name\": \"Revenu intermédiaire, tranche inférieure\"
+   }, 
+   {
+    \"iso2Code\": \"XT\", 
+    \"name\": \"Revenu intermédiaire, tranche supérieure\"
+   }, 
+   {
+    \"iso2Code\": \"XD\", 
+    \"name\": \"Revenu élevé\"
+   }, 
+   {
+    \"iso2Code\": \"XS\", 
+    \"name\": \"Revenu élevé : OCDE\"
+   }, 
+   {
+    \"iso2Code\": \"XR\", 
+    \"name\": \"Revenu élevé : non OCDE\"
+   }, 
+   {
+    \"iso2Code\": \"EU\", 
+    \"name\": \"Union européenne\"
+   }, 
+   {
+    \"iso2Code\": \"XC\", 
+    \"name\": \"Zone euro\"
+   }
+  ]"
+ }, 
+ "extension_description": {
+  "message": "Découvrez des données économiques relatives aux pages que vous visitez en ligne : PIB, Inflation, etc.", 
+  "description": "Describes the extension"
+ }, 
+ "keywords_found_notification_singular": {
+  "message": "Un indicateur économique trouvé"
+ }, 
+ "page_action_indicators_found_title": {
+  "message": "Economic Data Finder - Cliquez pour voir les données économiques trouvées sur cette page"
+ }, 
+ "page_action_language_not_supported_title": {
+  "message": "La langue détectée sur cette page n'est pas supportée. Cliquez pour scanner dans une langue de votre choix."
+ }, 
+ "options_page_scan_manually": {
+  "message": "Scan manuel uniquement, en cliquant sur cette icône dans la barre d'adresse :"
+ }, 
+ "options_page_location_names_title": {
+  "message": "Pays ou agrégats à utiliser pour les graphiques de la Banque Mondiale"
+ }, 
+ "countries": {
+  "message": "[
+   {
+    \"iso2Code\": \"AF\", 
+    \"name\": \"Afghanistan\"
+   }, 
+   {
+    \"iso2Code\": \"ZA\", 
+    \"name\": \"Afrique du Sud\"
+   }, 
+   {
+    \"iso2Code\": \"AL\", 
+    \"name\": \"Albanie\"
+   }, 
+   {
+    \"iso2Code\": \"DZ\", 
+    \"name\": \"Algérie\"
+   }, 
+   {
+    \"iso2Code\": \"DE\", 
+    \"name\": \"Allemagne\"
+   }, 
+   {
+    \"iso2Code\": \"AD\", 
+    \"name\": \"Andorre\"
+   }, 
+   {
+    \"iso2Code\": \"AO\", 
+    \"name\": \"Angola\"
+   }, 
+   {
+    \"iso2Code\": \"AG\", 
+    \"name\": \"Antigua-et-Barbuda\"
+   }, 
+   {
+    \"iso2Code\": \"AN\", 
+    \"name\": \"Antilles néerlandaises\"
+   }, 
+   {
+    \"iso2Code\": \"SA\", 
+    \"name\": \"Arabie saoudite\"
+   }, 
+   {
+    \"iso2Code\": \"AR\", 
+    \"name\": \"Argentine\"
+   }, 
+   {
+    \"iso2Code\": \"AM\", 
+    \"name\": \"Arménie\"
+   }, 
+   {
+    \"iso2Code\": \"AW\", 
+    \"name\": \"Aruba\"
+   }, 
+   {
+    \"iso2Code\": \"AU\", 
+    \"name\": \"Australie\"
+   }, 
+   {
+    \"iso2Code\": \"AT\", 
+    \"name\": \"Autriche\"
+   }, 
+   {
+    \"iso2Code\": \"AZ\", 
+    \"name\": \"Azerbaïdjan\"
+   }, 
+   {
+    \"iso2Code\": \"BS\", 
+    \"name\": \"Bahamas\"
+   }, 
+   {
+    \"iso2Code\": \"BH\", 
+    \"name\": \"Bahreïn\"
+   }, 
+   {
+    \"iso2Code\": \"BD\", 
+    \"name\": \"Bangladesh\"
+   }, 
+   {
+    \"iso2Code\": \"BB\", 
+    \"name\": \"Barbade\"
+   }, 
+   {
+    \"iso2Code\": \"BE\", 
+    \"name\": \"Belgique\"
+   }, 
+   {
+    \"iso2Code\": \"BZ\", 
+    \"name\": \"Belize\"
+   }, 
+   {
+    \"iso2Code\": \"BM\", 
+    \"name\": \"Bermudes\"
+   }, 
+   {
+    \"iso2Code\": \"BT\", 
+    \"name\": \"Bhoutan\"
+   }, 
+   {
+    \"iso2Code\": \"BO\", 
+    \"name\": \"Bolivie\"
+   }, 
+   {
+    \"iso2Code\": \"BA\", 
+    \"name\": \"Bosnie-Herzégovine\"
+   }, 
+   {
+    \"iso2Code\": \"BW\", 
+    \"name\": \"Botswana\"
+   }, 
+   {
+    \"iso2Code\": \"BN\", 
+    \"name\": \"Brunéi Darussalam\"
+   }, 
+   {
+    \"iso2Code\": \"BR\", 
+    \"name\": \"Brésil\"
+   }, 
+   {
+    \"iso2Code\": \"BG\", 
+    \"name\": \"Bulgarie\"
+   }, 
+   {
+    \"iso2Code\": \"BF\", 
+    \"name\": \"Burkina Faso\"
+   }, 
+   {
+    \"iso2Code\": \"BI\", 
+    \"name\": \"Burundi\"
+   }, 
+   {
+    \"iso2Code\": \"BY\", 
+    \"name\": \"Bélarus\"
+   }, 
+   {
+    \"iso2Code\": \"BJ\", 
+    \"name\": \"Bénin\"
+   }, 
+   {
+    \"iso2Code\": \"KH\", 
+    \"name\": \"Cambodge\"
+   }, 
+   {
+    \"iso2Code\": \"CM\", 
+    \"name\": \"Cameroun\"
+   }, 
+   {
+    \"iso2Code\": \"CA\", 
+    \"name\": \"Canada\"
+   }, 
+   {
+    \"iso2Code\": \"CV\", 
+    \"name\": \"Cap-Vert\"
+   }, 
+   {
+    \"iso2Code\": \"CL\", 
+    \"name\": \"Chili\"
+   }, 
+   {
+    \"iso2Code\": \"CN\", 
+    \"name\": \"Chine\"
+   }, 
+   {
+    \"iso2Code\": \"HK\", 
+    \"name\": \"Chine, RAS de Hong Kong\"
+   }, 
+   {
+    \"iso2Code\": \"CY\", 
+    \"name\": \"Chypre\"
+   }, 
+   {
+    \"iso2Code\": \"PS\", 
+    \"name\": \"Cisjordanie et Gaza\"
+   }, 
+   {
+    \"iso2Code\": \"CO\", 
+    \"name\": \"Colombie\"
+   }, 
+   {
+    \"iso2Code\": \"KM\", 
+    \"name\": \"Comores\"
+   }, 
+   {
+    \"iso2Code\": \"CG\", 
+    \"name\": \"Congo, République du\"
+   }, 
+   {
+    \"iso2Code\": \"CD\", 
+    \"name\": \"Congo, République démocratique du\"
+   }, 
+   {
+    \"iso2Code\": \"KR\", 
+    \"name\": \"Corée, République de\"
+   }, 
+   {
+    \"iso2Code\": \"KP\", 
+    \"name\": \"Corée, République démocratique de\"
+   }, 
+   {
+    \"iso2Code\": \"CR\", 
+    \"name\": \"Costa Rica\"
+   }, 
+   {
+    \"iso2Code\": \"HR\", 
+    \"name\": \"Croatie\"
+   }, 
+   {
+    \"iso2Code\": \"CU\", 
+    \"name\": \"Cuba\"
+   }, 
+   {
+    \"iso2Code\": \"CI\", 
+    \"name\": \"Côte d'Ivoire\"
+   }, 
+   {
+    \"iso2Code\": \"DK\", 
+    \"name\": \"Danemark\"
+   }, 
+   {
+    \"iso2Code\": \"DJ\", 
+    \"name\": \"Djibouti\"
+   }, 
+   {
+    \"iso2Code\": \"DM\", 
+    \"name\": \"Dominique\"
+   }, 
+   {
+    \"iso2Code\": \"SV\", 
+    \"name\": \"El Salvador\"
+   }, 
+   {
+    \"iso2Code\": \"ES\", 
+    \"name\": \"Espagne\"
+   }, 
+   {
+    \"iso2Code\": \"EE\", 
+    \"name\": \"Estonie\"
+   }, 
+   {
+    \"iso2Code\": \"FJ\", 
+    \"name\": \"Fidji\"
+   }, 
+   {
+    \"iso2Code\": \"FI\", 
+    \"name\": \"Finlande\"
+   }, 
+   {
+    \"iso2Code\": \"FR\", 
+    \"name\": \"France\"
+   }, 
+   {
+    \"iso2Code\": \"RU\", 
+    \"name\": \"Fédération de Russie\"
+   }, 
+   {
+    \"iso2Code\": \"GA\", 
+    \"name\": \"Gabon\"
+   }, 
+   {
+    \"iso2Code\": \"GM\", 
+    \"name\": \"Gambie\"
+   }, 
+   {
+    \"iso2Code\": \"GH\", 
+    \"name\": \"Ghana\"
+   }, 
+   {
+    \"iso2Code\": \"GI\", 
+    \"name\": \"Gibraltar\"
+   }, 
+   {
+    \"iso2Code\": \"GD\", 
+    \"name\": \"Grenade\"
+   }, 
+   {
+    \"iso2Code\": \"GL\", 
+    \"name\": \"Groenland\"
+   }, 
+   {
+    \"iso2Code\": \"GR\", 
+    \"name\": \"Grèce\"
+   }, 
+   {
+    \"iso2Code\": \"GU\", 
+    \"name\": \"Guam\"
+   }, 
+   {
+    \"iso2Code\": \"GT\", 
+    \"name\": \"Guatemala\"
+   }, 
+   {
+    \"iso2Code\": \"GN\", 
+    \"name\": \"Guinée\"
+   }, 
+   {
+    \"iso2Code\": \"GQ\", 
+    \"name\": \"Guinée équatoriale\"
+   }, 
+   {
+    \"iso2Code\": \"GW\", 
+    \"name\": \"Guinée-Bissau\"
+   }, 
+   {
+    \"iso2Code\": \"GY\", 
+    \"name\": \"Guyane\"
+   }, 
+   {
+    \"iso2Code\": \"GE\", 
+    \"name\": \"Géorgie\"
+   }, 
+   {
+    \"iso2Code\": \"HT\", 
+    \"name\": \"Haïti\"
+   }, 
+   {
+    \"iso2Code\": \"HN\", 
+    \"name\": \"Honduras\"
+   }, 
+   {
+    \"iso2Code\": \"HU\", 
+    \"name\": \"Hongrie\"
+   }, 
+   {
+    \"iso2Code\": \"IN\", 
+    \"name\": \"Inde\"
+   }, 
+   {
+    \"iso2Code\": \"ID\", 
+    \"name\": \"Indonésie\"
+   }, 
+   {
+    \"iso2Code\": \"IR\", 
+    \"name\": \"Iran, République islamique d’\"
+   }, 
+   {
+    \"iso2Code\": \"IQ\", 
+    \"name\": \"Iraq\"
+   }, 
+   {
+    \"iso2Code\": \"IE\", 
+    \"name\": \"Irlande\"
+   }, 
+   {
+    \"iso2Code\": \"IS\", 
+    \"name\": \"Islande\"
+   }, 
+   {
+    \"iso2Code\": \"IL\", 
+    \"name\": \"Israël\"
+   }, 
+   {
+    \"iso2Code\": \"IT\", 
+    \"name\": \"Italie\"
+   }, 
+   {
+    \"iso2Code\": \"JM\", 
+    \"name\": \"Jamaïque\"
+   }, 
+   {
+    \"iso2Code\": \"JP\", 
+    \"name\": \"Japon\"
+   }, 
+   {
+    \"iso2Code\": \"JO\", 
+    \"name\": \"Jordanie\"
+   }, 
+   {
+    \"iso2Code\": \"KZ\", 
+    \"name\": \"Kazakhstan\"
+   }, 
+   {
+    \"iso2Code\": \"KE\", 
+    \"name\": \"Kenya\"
+   }, 
+   {
+    \"iso2Code\": \"KI\", 
+    \"name\": \"Kiribati\"
+   }, 
+   {
+    \"iso2Code\": \"KV\", 
+    \"name\": \"Kosovo\"
+   }, 
+   {
+    \"iso2Code\": \"KW\", 
+    \"name\": \"Koweït\"
+   }, 
+   {
+    \"iso2Code\": \"LS\", 
+    \"name\": \"Lesotho\"
+   }, 
+   {
+    \"iso2Code\": \"LV\", 
+    \"name\": \"Lettonie\"
+   }, 
+   {
+    \"iso2Code\": \"LB\", 
+    \"name\": \"Liban\"
+   }, 
+   {
+    \"iso2Code\": \"LY\", 
+    \"name\": \"Libye\"
+   }, 
+   {
+    \"iso2Code\": \"LR\", 
+    \"name\": \"Libéria\"
+   }, 
+   {
+    \"iso2Code\": \"LI\", 
+    \"name\": \"Liechtenstein\"
+   }, 
+   {
+    \"iso2Code\": \"LT\", 
+    \"name\": \"Lituanie\"
+   }, 
+   {
+    \"iso2Code\": \"LU\", 
+    \"name\": \"Luxembourg\"
+   }, 
+   {
+    \"iso2Code\": \"MK\", 
+    \"name\": \"Macédoine, ex-République yougoslave de\"
+   }, 
+   {
+    \"iso2Code\": \"MG\", 
+    \"name\": \"Madagascar\"
+   }, 
+   {
+    \"iso2Code\": \"MY\", 
+    \"name\": \"Malaisie\"
+   }, 
+   {
+    \"iso2Code\": \"MW\", 
+    \"name\": \"Malawi\"
+   }, 
+   {
+    \"iso2Code\": \"MV\", 
+    \"name\": \"Maldives\"
+   }, 
+   {
+    \"iso2Code\": \"ML\", 
+    \"name\": \"Mali\"
+   }, 
+   {
+    \"iso2Code\": \"MT\", 
+    \"name\": \"Malte\"
+   }, 
+   {
+    \"iso2Code\": \"MP\", 
+    \"name\": \"Mariannes\"
+   }, 
+   {
+    \"iso2Code\": \"MA\", 
+    \"name\": \"Maroc\"
+   }, 
+   {
+    \"iso2Code\": \"MU\", 
+    \"name\": \"Maurice\"
+   }, 
+   {
+    \"iso2Code\": \"MR\", 
+    \"name\": \"Mauritanie\"
+   }, 
+   {
+    \"iso2Code\": \"YT\", 
+    \"name\": \"Mayotte\"
+   }, 
+   {
+    \"iso2Code\": \"MX\", 
+    \"name\": \"Mexique\"
+   }, 
+   {
+    \"iso2Code\": \"FM\", 
+    \"name\": \"Micronésie, États fédérés de\"
+   }, 
+   {
+    \"iso2Code\": \"MD\", 
+    \"name\": \"Moldova\"
+   }, 
+   {
+    \"iso2Code\": \"MC\", 
+    \"name\": \"Monaco\"
+   }, 
+   {
+    \"iso2Code\": \"MN\", 
+    \"name\": \"Mongolie\"
+   }, 
+   {
+    \"iso2Code\": \"ME\", 
+    \"name\": \"Monténégro\"
+   }, 
+   {
+    \"iso2Code\": \"MZ\", 
+    \"name\": \"Mozambique\"
+   }, 
+   {
+    \"iso2Code\": \"MM\", 
+    \"name\": \"Myanmar\"
+   }, 
+   {
+    \"iso2Code\": \"NA\", 
+    \"name\": \"Namibie\"
+   }, 
+   {
+    \"iso2Code\": \"NI\", 
+    \"name\": \"Nicaragua\"
+   }, 
+   {
+    \"iso2Code\": \"NE\", 
+    \"name\": \"Niger\"
+   }, 
+   {
+    \"iso2Code\": \"NG\", 
+    \"name\": \"Nigéria\"
+   }, 
+   {
+    \"iso2Code\": \"NO\", 
+    \"name\": \"Norvège\"
+   }, 
+   {
+    \"iso2Code\": \"NC\", 
+    \"name\": \"Nouvelle-Calédonie\"
+   }, 
+   {
+    \"iso2Code\": \"NZ\", 
+    \"name\": \"Nouvelle-Zélande\"
+   }, 
+   {
+    \"iso2Code\": \"NP\", 
+    \"name\": \"Népal\"
+   }, 
+   {
+    \"iso2Code\": \"OM\", 
+    \"name\": \"Oman\"
+   }, 
+   {
+    \"iso2Code\": \"UG\", 
+    \"name\": \"Ouganda\"
+   }, 
+   {
+    \"iso2Code\": \"UZ\", 
+    \"name\": \"Ouzbékistan\"
+   }, 
+   {
+    \"iso2Code\": \"PK\", 
+    \"name\": \"Pakistan\"
+   }, 
+   {
+    \"iso2Code\": \"PW\", 
+    \"name\": \"Palaos\"
+   }, 
+   {
+    \"iso2Code\": \"PA\", 
+    \"name\": \"Panama\"
+   }, 
+   {
+    \"iso2Code\": \"PG\", 
+    \"name\": \"Papouasie-Nouvelle-Guinée\"
+   }, 
+   {
+    \"iso2Code\": \"PY\", 
+    \"name\": \"Paraguay\"
+   }, 
+   {
+    \"iso2Code\": \"NL\", 
+    \"name\": \"Pays-Bas\"
+   }, 
+   {
+    \"iso2Code\": \"PH\", 
+    \"name\": \"Philippines\"
+   }, 
+   {
+    \"iso2Code\": \"PL\", 
+    \"name\": \"Pologne\"
+   }, 
+   {
+    \"iso2Code\": \"PF\", 
+    \"name\": \"Polynésie française\"
+   }, 
+   {
+    \"iso2Code\": \"PR\", 
+    \"name\": \"Porto Rico\"
+   }, 
+   {
+    \"iso2Code\": \"PT\", 
+    \"name\": \"Portugal\"
+   }, 
+   {
+    \"iso2Code\": \"PE\", 
+    \"name\": \"Pérou\"
+   }, 
+   {
+    \"iso2Code\": \"QA\", 
+    \"name\": \"Qatar\"
+   }, 
+   {
+    \"iso2Code\": \"RO\", 
+    \"name\": \"Roumanie\"
+   }, 
+   {
+    \"iso2Code\": \"GB\", 
+    \"name\": \"Royaume-Uni\"
+   }, 
+   {
+    \"iso2Code\": \"RW\", 
+    \"name\": \"Rwanda\"
+   }, 
+   {
+    \"iso2Code\": \"MO\", 
+    \"name\": \"Région administrative spéciale de Macao, Chine\"
+   }, 
+   {
+    \"iso2Code\": \"SY\", 
+    \"name\": \"République arabe syrienne\"
+   }, 
+   {
+    \"iso2Code\": \"CF\", 
+    \"name\": \"République centrafricaine\"
+   }, 
+   {
+    \"iso2Code\": \"DO\", 
+    \"name\": \"République dominicaine\"
+   }, 
+   {
+    \"iso2Code\": \"LA\", 
+    \"name\": \"République démocratique populaire lao\"
+   }, 
+   {
+    \"iso2Code\": \"KG\", 
+    \"name\": \"République kirghize\"
+   }, 
+   {
+    \"iso2Code\": \"SK\", 
+    \"name\": \"République slovaque\"
+   }, 
+   {
+    \"iso2Code\": \"CZ\", 
+    \"name\": \"République tchèque\"
+   }, 
+   {
+    \"iso2Code\": \"KN\", 
+    \"name\": \"Saint-Kitts-et-Nevis\"
+   }, 
+   {
+    \"iso2Code\": \"SM\", 
+    \"name\": \"Saint-Marin\"
+   }, 
+   {
+    \"iso2Code\": \"VC\", 
+    \"name\": \"Saint-Vincent-et-les Grenadines\"
+   }, 
+   {
+    \"iso2Code\": \"LC\", 
+    \"name\": \"Sainte-Lucie\"
+   }, 
+   {
+    \"iso2Code\": \"WS\", 
+    \"name\": \"Samoa\"
+   }, 
+   {
+    \"iso2Code\": \"AS\", 
+    \"name\": \"Samoa américaines\"
+   }, 
+   {
+    \"iso2Code\": \"ST\", 
+    \"name\": \"Sao Tomé-et-Principe\"
+   }, 
+   {
+    \"iso2Code\": \"RS\", 
+    \"name\": \"Serbie\"
+   }, 
+   {
+    \"iso2Code\": \"SC\", 
+    \"name\": \"Seychelles\"
+   }, 
+   {
+    \"iso2Code\": \"SL\", 
+    \"name\": \"Sierra Leone\"
+   }, 
+   {
+    \"iso2Code\": \"SG\", 
+    \"name\": \"Singapour\"
+   }, 
+   {
+    \"iso2Code\": \"SI\", 
+    \"name\": \"Slovénie\"
+   }, 
+   {
+    \"iso2Code\": \"SO\", 
+    \"name\": \"Somalie\"
+   }, 
+   {
+    \"iso2Code\": \"SD\", 
+    \"name\": \"Soudan\"
+   }, 
+   {
+    \"iso2Code\": \"LK\", 
+    \"name\": \"Sri Lanka\"
+   }, 
+   {
+    \"iso2Code\": \"CH\", 
+    \"name\": \"Suisse\"
+   }, 
+   {
+    \"iso2Code\": \"SR\", 
+    \"name\": \"Suriname\"
+   }, 
+   {
+    \"iso2Code\": \"SE\", 
+    \"name\": \"Suède\"
+   }, 
+   {
+    \"iso2Code\": \"SZ\", 
+    \"name\": \"Swaziland\"
+   }, 
+   {
+    \"iso2Code\": \"SN\", 
+    \"name\": \"Sénégal\"
+   }, 
+   {
+    \"iso2Code\": \"TJ\", 
+    \"name\": \"Tadjikistan\"
+   }, 
+   {
+    \"iso2Code\": \"TZ\", 
+    \"name\": \"Tanzanie\"
+   }, 
+   {
+    \"iso2Code\": \"TD\", 
+    \"name\": \"Tchad\"
+   }, 
+   {
+    \"iso2Code\": \"TH\", 
+    \"name\": \"Thaïlande\"
+   }, 
+   {
+    \"iso2Code\": \"TL\", 
+    \"name\": \"Timor-Leste\"
+   }, 
+   {
+    \"iso2Code\": \"TG\", 
+    \"name\": \"Togo\"
+   }, 
+   {
+    \"iso2Code\": \"TO\", 
+    \"name\": \"Tonga\"
+   }, 
+   {
+    \"iso2Code\": \"TT\", 
+    \"name\": \"Trinité-et-Tobago\"
+   }, 
+   {
+    \"iso2Code\": \"TN\", 
+    \"name\": \"Tunisie\"
+   }, 
+   {
+    \"iso2Code\": \"TM\", 
+    \"name\": \"Turkménistan\"
+   }, 
+   {
+    \"iso2Code\": \"TR\", 
+    \"name\": \"Turquie\"
+   }, 
+   {
+    \"iso2Code\": \"TV\", 
+    \"name\": \"Tuvalu\"
+   }, 
+   {
+    \"iso2Code\": \"UA\", 
+    \"name\": \"Ukraine\"
+   }, 
+   {
+    \"iso2Code\": \"UY\", 
+    \"name\": \"Uruguay\"
+   }, 
+   {
+    \"iso2Code\": \"VU\", 
+    \"name\": \"Vanuatu\"
+   }, 
+   {
+    \"iso2Code\": \"VE\", 
+    \"name\": \"Venezuela\"
+   }, 
+   {
+    \"iso2Code\": \"VN\", 
+    \"name\": \"Viet Nam\"
+   }, 
+   {
+    \"iso2Code\": \"YE\", 
+    \"name\": \"Yémen, Rép. du\"
+   }, 
+   {
+    \"iso2Code\": \"ZM\", 
+    \"name\": \"Zambie\"
+   }, 
+   {
+    \"iso2Code\": \"ZW\", 
+    \"name\": \"Zimbabwe\"
+   }, 
+   {
+    \"iso2Code\": \"EG\", 
+    \"name\": \"Égypte, République arabe d’\"
+   }, 
+   {
+    \"iso2Code\": \"AE\", 
+    \"name\": \"Émirats arabes unis\"
+   }, 
+   {
+    \"iso2Code\": \"EC\", 
+    \"name\": \"Équateur\"
+   }, 
+   {
+    \"iso2Code\": \"ER\", 
+    \"name\": \"Érythrée\"
+   }, 
+   {
+    \"iso2Code\": \"US\", 
+    \"name\": \"États-Unis\"
+   }, 
+   {
+    \"iso2Code\": \"ET\", 
+    \"name\": \"Éthiopie\"
+   }, 
+   {
+    \"iso2Code\": \"IM\", 
+    \"name\": \"Île de Man\"
+   }, 
+   {
+    \"iso2Code\": \"JG\", 
+    \"name\": \"Îles Anglo-Normandes\"
+   }, 
+   {
+    \"iso2Code\": \"KY\", 
+    \"name\": \"Îles Caïmans\"
+   }, 
+   {
+    \"iso2Code\": \"FO\", 
+    \"name\": \"Îles Féroé\"
+   }, 
+   {
+    \"iso2Code\": \"MH\", 
+    \"name\": \"Îles Marshall\"
+   }, 
+   {
+    \"iso2Code\": \"SB\", 
+    \"name\": \"Îles Salomon\"
+   }, 
+   {
+    \"iso2Code\": \"TC\", 
+    \"name\": \"Îles Turques-et-Caïques\"
+   }, 
+   {
+    \"iso2Code\": \"VI\", 
+    \"name\": \"Îles Vierges (EU)\"
+   }
+  ]"
+ }, 
+ "options_page_scan_listed_websites": {
+  "message": "Scan restreint aux sites suivants"
+ }, 
+ "world_bank_indicator_url": {
+  "message": "http://donnees.banquemondiale.org/widgets/indicator/0/web_widgets_3/$indicatorId$/countries/$countryCodes$",
+  "placeholders": {
+   "countryCodes": {
+    "content": "$2"
+   }, 
+   "indicatorId": {
+    "content": "$1"
+   }
+  }
+ }, 
+ "popup_indicators_title": {
+  "message": "Données Economiques"
+ }, 
+ "language_fr": {
+  "message": "Français"
+ }, 
+ "options_page_save_button": {
+  "message": "Enregistrer"
+ }, 
+ "options_page_highlight_keywords": {
+  "message": "Surligner les mots clés"
+ },
+ "options_page_click_on_keywords": {
+  "message": "Cliquer sur les mots clés pour afficher les indicateurs associés"
+ },
+  "options_page_general_tab_header": {
+  "message": "Général"
+ }, 
+ "options_page_indicators_tab_header": {
+  "message": "Indicateurs Personnalisés"
+ }, 
+  "options_page_world_bank_tab_header": {
+  "message": "Banque Mondiale"
+ }, 
+ "options_page_add_indicator": {
+  "message": "Ajouter"
+ }, 
+ "options_page_edit_indicator": {
+  "message": "Editer"
+ }, 
+ "options_page_delete_indicator": {
+  "message": "Supprimer"
+ }, 
+ "options_page_indicators_tab_indicator_key": {
+  "message": "Nom"
+ }, 
+ "options_page_indicators_tab_category_key": {
+  "message": "Catégorie"
+ }, 
+ "options_page_indicators_tab_url_key": {
+  "message": "URL"
+ }, 
+ "options_page_indicators_tab_keywords": {
+  "message": "Mots clés"
+ }, 
+ "options_page_indicators_tab_add_keyword": {
+  "message": "Ajouter"
+ }, 
+ "options_page_indicators_tab_languages": {
+  "message": "Langues"
+ }, 
+ "options_page_indicators_tab_all_languages": {
+  "message": "Toutes"
+ }, 
+ "options_page_indicators_tab_indicator_saved": {
+  "message": "Enregistrement réussi"
+ }, 
+ "options_page_indicators_tab_indicator_already_in_use": {
+  "message": "Ce nom d'indicateur est déjà utilisé."
+ }, 
+ "options_page_indicators_tab_add_one_keyword": {
+  "message": "Veuillez ajouter un mot clé au minimum."
+ }, 
+ "options_page_indicators_tab_indicator_input_placeholder": {
+  "message": "indicateur"
+ }, 
+ "options_page_indicators_tab_keyword_input_placeholder": {
+  "message": "mot clé"
+ },
+ "options_page_indicators_tab_please_select_custom_indicator": {
+  "message": "Veuillez choisir"
+ },
+ "options_page_indicators_tab_no_custom_indicator": {
+  "message": "Pas d'indicateur personnalisé. Cliquez sur \"Ajouter\" pour en créer."
+ }
+}

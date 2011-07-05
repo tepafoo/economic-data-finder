@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/indicator_selector.css"
+	type="text/css" />
+<link rel="stylesheet" href="../css/popup.css" type="text/css" />
+<script type="text/javascript" src="../js/lib/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../js/lib/parseUri-1.2.2.js"></script>
+<script type="text/javascript" src="../js/shared/util.js"></script>
+<script type="text/javascript" src="../js/shared/logger.js"></script>
+<script type="text/javascript" src="../js/shared/constants.js"></script>
+<script type="text/javascript"
+	src="../js/shared/link_selector_widget.js"></script>
+<script type="text/javascript">
+var parsedWorlBankUri = parseUri(chrome.i18n.getMessage('world_bank_indicator_url', [ '', '' ]));
+var worldBankUrlRegExp = new RegExp('.*' + parsedWorlBankUri.host + '.*', 'i');
+var PIXEL_SIZE_SCALE = .8;
+
+/**
+ * Opens a URL as represented by the given linkObject.
+ * @param stringifiedLinkObject
+ */
+var openUrl = function(stringifiedLinkObject) {
+	var linkObject = JSON.parse(decodeURIComponent(stringifiedLinkObject));
+	if (worldBankUrlRegExp.test(linkObject.url)){ 
+		showWorldBankGraph(linkObject);
+	} else {
+		window.location = linkObject.url;	
+	}
+};
+
+/**
+ * Shows a World Bank graph given a linkObject.
+ * @param linkObject
+ */
+var showWorldBankGraph = function(linkObject) {
+	// 1. clear the links container
+	$('#linksContainer').empty();
+	$('#worldBankGraphContainer').removeClass('displayNone');
+
+	// 2. create a widget context object that will be used by the WB JavaScript
+	widgetContext = {
+			'url': linkObject.url,
+			'width': Util.getScaledPixelSize($(document).width(), PIXEL_SIZE_SCALE),
+			'height': 300,
+			'widgetid': 'economic_data_finder_graph_widget'
+	};
+	
+	document.getElementById('economic_data_finder_graph_title').innerText = linkObject.text;
+
+	// 3. populate the World Bank graph container
+	Util.importJavaScriptFile('http://data.worldbank.org/profiles/datafinder/modules/contrib/web_widgets/iframe/', 'web_widgets_iframe.js');
+};
+
+/**
+ * Initialises this page.
+ */
+var initialiseIndicatorSelector = function() {
+
+	var parsedUri = parseUri(location.href);
+
+	var keywordId = parsedUri.queryKey[Constants.indicatorSelectorQueryParams.keywordId];
+	var languageCode = parsedUri.queryKey[Constants.indicatorSelectorQueryParams.languageCode];
+	if (keywordId !== undefined && languageCode !== undefined) {
+		chrome.extension.sendRequest({
+			action : Constants.messaging.actions.getIindicatorsForKeyword,
+			languageCode: languageCode,
+			keywordId: keywordId,
+		}, function(response) {
+			new LinkSelectorWidget(response.indicatorLinksPerCategory, document.getElementById('linksContainer'));
+		});	
+	} else {
+		var stringifiedLinkObject = parsedUri.queryKey[Constants.indicatorSelectorQueryParams.indicatorLinkObject];
+
+		if (stringifiedLinkObject !== undefined) {
+			if (Logger.canLog(Logger.LogLevel.INFO)) {
+				Logger.log('indicator ' + stringifiedLinkObject, Logger.LogLevel.INFO);
+			}
+
+			openUrl(stringifiedLinkObject);
+		} else if (Logger.canLog(Logger.LogLevel.WARNING)) {
+			Logger.log('could not retrieve linkObject', Logger.LogLevel.WARNING);
+		}
+	} 
+}
+</script>
+</head>
+<body onload="initialiseIndicatorSelector()">
+	<div id="linksContainer"></div>
+	<div id="worldBankGraphContainer" class=" displayNone">
+		<div class="displayTable">
+			<div class="displayTableRow">
+				<div class="displayTableCell">
+					<div id="economic_data_finder_graph_title"></div>
+					<div id="economic_data_finder_graph_widget"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

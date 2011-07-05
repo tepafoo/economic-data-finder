@@ -1,0 +1,13 @@
+var db_tables = [];
+db_tables.push('indicator_tbl');
+db_tables.push('indicator_to_indicator_tbl');
+db_tables.push('category_tbl');
+db_tables.push('indicator_to_category_tbl');
+db_tables.push('en_keyword_tbl');
+db_tables.push('en_keyword_to_indicator_tbl');
+db_tables.push('en_indicator_name_tbl');
+db_tables.push('en_category_name_tbl');
+db_tables.push('fr_keyword_tbl');
+db_tables.push('fr_keyword_to_indicator_tbl');
+db_tables.push('fr_indicator_name_tbl');
+db_tables.push('fr_category_name_tbl');

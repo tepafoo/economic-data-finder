@@ -1,0 +1,75 @@
+<html>
+    <title id="pageTitle"></title>
+    <head>
+    	<!-- DB IMPORTS -->
+<script type="application/javascript" src="../js/db/db_languages.js" charset="utf-8"></script>
+    	<!-- END OF DB IMPORTS -->
+        <script type="text/javascript" src="../js/lib/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="../js/lib/jquery-ui-1.8.14.custom.min.js"></script>
+        <script type="text/javascript" src="../js/lib/ui.dropdownchecklist.js"></script>
+        <script type="text/javascript" src="../js/shared/constants.js"></script>
+        <script type="application/javascript" src="../js/shared/logger.js"></script>
+        <script type="application/javascript" src="../js/shared/util.js"></script>
+        <script type="application/javascript" src="../js/shared/chrome_manifest_extension.js"></script>
+        <script type="application/javascript" src="../js/db/db_layer.js"></script>
+        <script type="application/javascript" src="../js/data_loader.js"></script>
+        <script type="text/javascript" src="../js/dom_util.js"></script>
+        <script type="text/javascript" src="../js/options/has_remove_button_widget.js"></script>
+        <script type="text/javascript" src="../js/options/button_with_feedback_message.js"></script>
+        <script type="text/javascript" src="../js/options/custom_indicator_widget.js"></script>
+        <script type="text/javascript" src="../js/options/custom_indicator_selector.js"></script>
+        <script type="text/javascript" src="../js/options/options.js"></script>
+        <link rel="stylesheet" href="../css/ui.dropdownchecklist.standalone.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/options.css" type="text/css"/>
+    </head>
+    <body onload="onLoad()">
+        <h1 id="pageTitle2"></h1>
+        <ul id="tabHeaders">
+        <li id="tabHeader1" class="clickable tab-common tabHeader-selected"></li>
+        <li id="tabHeader2" class="clickable tab-common"></li>
+        <li id="tabHeader3" class="clickable tab-common"></li>
+        </ul>
+        <div id="tab1" class="tab tab-common">
+        	<h2 id="pageScanTitle"></h2>
+	        <form name="pageScanSettings" action="#" class="floatLeft">
+	            <div id="scanAll" class="clickable">
+	                <input value="scanAll" type="radio" name="scanRadioButtons">
+	                <span id="scanAllLabel"></span>
+	            </div>
+	            <div id="scanManually" class="clickable floatLeft">
+	                <input value="scanManually" type="radio" name="scanRadioButtons">
+	                <span id="scanManuallyLabel"></span>
+	            </div>
+	            <div class="manualScanIcon floatLeft">
+	            </div>
+	        </form>
+	        <h2 id="keywordsTitle" class="clearBoth"></h2>
+	        <form name="keywordSettings" action="#">
+	            <div id="highlightChekboxContainer" class="clickable floatLeft clearBoth">
+	                <input name="highlightChekbox" value="Highlight" type="checkbox">
+	                <span id="highlightChekboxLabel"></span>
+	            </div>
+	            <div id="clickOnKeywordsChekboxContainer" class="clickable floatLeft clearBoth">
+	                <input name="clickOnKeywordsChekbox" value="Click On Keywords" type="checkbox">
+	                <span id="clickOnKeywordsChekboxLabel"></span>
+	            </div>
+	        </form>
+        </div>
+        <div id="tab2" class="tab tab-common displayNone">
+        	<h2 id="locationsPreSelectionTitle" class="floatLeft clearBoth"></h2>
+	        <div class="clearBoth">
+	        	<button id="addCountryButton" class="floatLeft"></button>
+	        	<button id="addAggregateButton"></button>
+	        </div>
+			<div id="locationsListBoxesContainer" class="floatLeft clearBoth"></div>
+        </div>
+        <div id="tab3" class="tab tab-common displayNone">
+        	<ul id="indicatorsTabOptions">
+        		<li id="addIndicator" class="clickable customIndicatorSelector-actionSelectionButton"></li>
+        		<li id="editIndicator" class="clickable customIndicatorSelector-actionSelectionButton"></li>
+        		<li id="deleteIndicator" class="clickable customIndicatorSelector-actionSelectionButton"></li>
+        	</ul>
+        	<div id="tab3-content"></div>
+        </div>
+    </body>
+</html>

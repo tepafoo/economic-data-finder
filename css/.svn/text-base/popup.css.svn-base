@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Deja-vu, sans-serif;
+	font-size: 13px;
+	width: 360px;
+	margin: 10px 0px;
+	float: left;
+}
+
+.withVerticalScrollbar {
+	margin-right: 15px;
+}
+
+h2,h3 {
+	color: #3D3D3D;
+	float: left;
+}
+
+h3 {
+	float: left;
+	color: #565656;
+	margin: 17px 7px 5px;
+}
+
+ul {
+	margin: 0px;
+}
+
+ul,li {
+	list-style-type: none;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+
+.linksH3Title {
+	margin-top: 0px;
+	width: 80%;
+}
+
+#content {
+	width: 100%;
+}
+
+#linksH2Title {
+	margin: 0;
+	margin-left: 7px;
+}
+
+#links {
+	float: left;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+
+.linkContainer {
+	padding: 2px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.linkContainer a {
+	padding: 0px 5px;
+	text-decoration: none;
+	color: #2C64C9;
+	float: left;
+	width: 100%;
+}
+
+.linkContainer:hover,.linkContainer:nth-child(even):hover {
+	background: #507DCF;
+}
+
+.linkContainer:hover a,.linkContainer:nth-child(even):hover a {
+	color: white;
+}
+
+.linkContainer:nth-child(even) {
+	background-color: #F5F5F5;
+}
+
+.optionsLinkContainer {
+	float: right;
+	margin-right: 7px;
+}

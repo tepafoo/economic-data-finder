@@ -1,0 +1,26 @@
+<project default="create-zip">
+
+	<!-- Makes sure logging is set to LogLevel.NONE -->
+	<target name="disable-logging">
+		<replace file="js/shared/logger.js" token="Logger.CurrentLogLevel = Logger.LogLevel.INFO" value="Logger.CurrentLogLevel = Logger.LogLevel.NONE" />
+		<replace file="js/shared/logger.js" token="Logger.CurrentLogLevel = Logger.LogLevel.WARNING" value="Logger.CurrentLogLevel = Logger.LogLevel.NONE" />
+		<replace file="js/shared/logger.js" token="Logger.CurrentLogLevel = Logger.LogLevel.ERROR" value="Logger.CurrentLogLevel = Logger.LogLevel.NONE" />
+	</target>
+
+	<!-- Cleans the target folder -->
+	<target name="clean" depends="disable-logging">
+		<delete dir="target" />
+		<mkdir dir="target" />
+	</target>
+
+	<!-- Creates the ZIP file -->
+	<target name="create-zip" depends="clean">
+		<!-- Command line: zip -r target/economic_data_finder.zip . -x \*svn* \.project \*target* \*test* \*.metadata* \build.xml -->
+		<exec executable="zip">
+			<arg line="-r target/economic_data_finder.zip . -x *svn* *.project* *target* *test* *.metadata* build.xml" />
+		</exec>
+		<exec executable="unzip">
+			<arg line="target/economic_data_finder.zip -d target/dist" />
+		</exec>
+	</target>
+</project>
