@@ -1,12 +1,12 @@
 {
   "name": "Economic Data Finder",
-	"version": "1.1",
+	"version": "1.1.1",
 	"description": "__MSG_extension_description__",
   "icons": {"16": "images/icon16.png",
   			"48": "images/icon48.png",
 			"128": "images/icon128.png"},
   "default_locale": "en",
-  "page_action": {},
+  "page_action": {"this_is": "a_place_holder"},
   "background_page": "html/background.html",
   "options_page": "html/options.html",
   "content_scripts": [
