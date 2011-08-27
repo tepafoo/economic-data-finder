@@ -12,8 +12,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["js/lib/xregexp-min.js", "js/lib/xregexp-unicode-base.js", "js/lib/xregexp-unicode-scripts.js", 
-      		"js/lib/jquery-1.6.2.min.js","js/lib/fancybox/jquery.fancybox-1.3.4.pack.js", 
+      "js": ["js/lib/trouveur.pack.min.js", "js/lib/jquery-1.6.2.min.js","js/lib/fancybox/jquery.fancybox-1.3.4.pack.js", 
       		"js/shared/logger.js", "js/shared/constants.js", "js/content_scripts/keyword_finder.js", "js/shared/link_selector_widget.js"],
 			"css": ["css/keyword_finder.css", "js/lib/fancybox/jquery.fancybox-1.3.4.css"]
     }
